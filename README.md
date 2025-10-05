@@ -1,77 +1,58 @@
-Movie Ranking Project
-This project showcases a simple application for listing top movies, implemented in three different ways: as a static HTML webpage, a Python console application, and a Python GUI application using tkinter.
+# Movie Ranking Project
 
-Project Overview
-The core purpose of this project is to display a curated list of top 3 movies. It started as a basic HTML exercise and evolved into interactive Python applications, demonstrating the transition from web markup to command-line and graphical user interfaces.
+This project showcases a simple application for listing the top 3 movies, implemented in three different ways: as a static HTML webpage, a Python console application, and a Python GUI application using tkinter. It demonstrates the evolution from basic web markup to interactive Python applications and graphical user interfaces.
 
-Versions
-This repository contains three versions of the movie ranking application.
+## Versions Included
 
-1. HTML Webpage (index.html)
-A static webpage built with fundamental HTML tags to structure and display the movie list.
+### 1. HTML Webpage (`index.html`)
 
-Features:
+A static webpage built with standard HTML tags to structure and display the movie list.
 
-Uses <h1>, <h2>, <h3> for headings.
+**Features:**
+- Headings using `<h1>`, `<h2>`, `<h3>`
+- Descriptions using `<p>`
+- Thematic breaks using `<hr>`
 
-Uses <p> for descriptions.
+**How to Run:**
+- Locate the `index.html` file.
+- Double-click the file, or right-click and select “Open with” your preferred web browser (e.g., Chrome, Firefox, Safari).
 
-Uses <hr> for a thematic break.
+### 2. Python Console Application (`main.py`)
 
-2. Python Console Application (main.py)
 A simple script that prints the movie ranking list directly to the terminal.
 
-Features:
+**Features:**
+- Displays output using the `print()` function
+- Formatting achieved with newline characters (`\n`)
 
-Uses the print() function for all output.
+**How to Run:**
+- Ensure Python is installed on your computer.
+- Open terminal/command prompt and navigate to the project directory.
+- Run the following command:
+  ```bash
+  python main.py
+  ```
 
-Uses newline characters (\n) for spacing.
+### 3. Python GUI Application (`movie_gui.py`)
 
-3. Python GUI Application (movie_gui.py)
-A desktop application with a graphical user interface created using Python's built-in tkinter library.
+A desktop application built with Python’s tkinter library for a graphical interface.
 
-Features:
+**Features:**
+- Standalone window
+- Label widgets for styled text display
+- Separator widget for layout aesthetics
 
-Creates a standalone window.
+**How to Run:**
+- Ensure Python is installed on your computer.
+- Open terminal/command prompt and navigate to the project directory.
+- Run the following command:
+  ```bash
+  python movie_gui.py
+  ```
+- A window will appear displaying the list of movies.
 
-Uses Label widgets to display text with custom fonts and styling.
+## Technologies Used
 
-Includes a Separator widget for visual structure.
-
-How to Run
-HTML Version
-Locate the index.html file.
-
-Double-click the file, or right-click and select "Open with" your favorite web browser (e.g., Chrome, Firefox, Safari).
-
-Python Versions
-You must have Python installed on your computer to run these files.
-
-1. Console Application:
-
-Open your terminal or command prompt.
-
-Navigate to the directory containing the project files.
-
-Run the following command:
-
-python main.py
-
-2. GUI Application:
-
-Open your terminal or command prompt.
-
-Navigate to the directory containing the project files.
-
-Run the following command:
-
-python movie_gui.py
-
-A new window should appear on your screen displaying the application.
-
-Technologies Used
-HTML5
-
-Python 3
-
-Tkinter (Python's standard GUI library)
+- HTML5
+- Python 3
+- Tkinter (Python's standard GUI library)
